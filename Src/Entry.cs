@@ -1,0 +1,14 @@
+using HarmonyLib;
+using MegaCrit.Sts2.Core.Modding;
+
+namespace Parasitophobia;
+
+[ModInitializer("Init")]
+public class Entry
+{
+    public static void Init()
+    {
+        var harmony = new Harmony("wfrfred.sts2.parasitophobia");
+        harmony.PatchAll();
+    }
+}

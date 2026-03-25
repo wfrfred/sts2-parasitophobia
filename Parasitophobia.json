@@ -1,0 +1,11 @@
+{
+  "id": "Parasitophobia",
+  "name": "Parasitophobia",
+  "author": "wfrfred",
+  "description": "将Phrog Parasite以及Infection替换为人畜无害的小白夕",
+  "version": "1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [""],
+  "affects_gameplay": false
+}
