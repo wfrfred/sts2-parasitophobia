@@ -5,7 +5,7 @@ using MegaCrit.Sts2.Core.Models.Monsters;
 namespace Parasitophobia.Patch;
 
 [HarmonyPatch(typeof(MonsterModel), "VisualsPath", MethodType.Getter)]
-public static class Wriggler_CreateVisuals_Patch
+public static class Wriggler_VisualsPath_Patch
 {
     static void Postfix(MonsterModel __instance, ref string? __result)
     {
