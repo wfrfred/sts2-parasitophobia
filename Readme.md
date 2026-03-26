@@ -1,6 +1,6 @@
 # Parasitophobia
 
-[English](README.md) | [中文](Readme_CN.md)
+[English](Readme.md) | [中文](Readme_CN.md)
 
 ## Description
 

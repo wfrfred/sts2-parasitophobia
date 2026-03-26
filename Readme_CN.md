@@ -1,6 +1,6 @@
 # 寄生虫恐惧症
 
-[English](README.md) | [中文](Readme_CN.md)
+[English](Readme.md) | [中文](Readme_CN.md)
 
 ## 描述
 
