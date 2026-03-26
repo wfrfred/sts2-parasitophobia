@@ -5,13 +5,13 @@ using MegaCrit.Sts2.Core.Models.Monsters;
 namespace Parasitophobia.Patch;
 
 [HarmonyPatch(typeof(MonsterModel), "VisualsPath", MethodType.Getter)]
-public static class PhrogParasite_CreateVisuals_Patch
+public static class Wriggler_CreateVisuals_Patch
 {
     static void Postfix(MonsterModel __instance, ref string? __result)
     {
-        if (__instance is PhrogParasite)
+        if (__instance is Wriggler)
         {
-            __result = "res://Parasitophobia/Scenes/Seal.tscn";
+            __result = "res://Parasitophobia/Scenes/LittleSeal.tscn";
         }
     }
 }
