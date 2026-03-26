@@ -27,12 +27,13 @@ root
 If the mods folder does not exist, please create it manually.
 
 For first-time installation, note that modded save files are separate from the original game saves.
+
 - When you launch the game after installing the mod, allow loading mods.
 - Copy your profilex folder from %AppData%\SlayTheSpire2\steam\<SteamID> into the modded folder to transfer your original save files to the modded save.
 
 ## Notes
 
 - This mod is theoretically compatible with multiplayer..
-- ard images are from the Bai Xi Seal image pack.  
+- Card images are from the Bai Xi Seal image pack.  
 - Special thanks to @Reme for the [tutorial](https://glitchedreme.github.io/SlayTheSpire2ModdingTutorials/index.html).
   
