@@ -1,5 +1,7 @@
 # Parasitophobia
 
+[English](README.md) | [中文](Readme_CN.md)
+
 ## Description
 
 A Slay the Spire 2 mod that replaces parasites with seals:
