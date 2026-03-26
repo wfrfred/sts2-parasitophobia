@@ -1,4 +1,6 @@
+using Godot.Bridge;
 using HarmonyLib;
+using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
 
 namespace Parasitophobia;
@@ -10,5 +12,8 @@ public class Entry
     {
         var harmony = new Harmony("wfrfred.sts2.parasitophobia");
         harmony.PatchAll();
+
+        ScriptManagerBridge.LookupScriptsInAssembly(typeof(Entry).Assembly);
+        Log.Debug("Mod initialized!");
     }
 }

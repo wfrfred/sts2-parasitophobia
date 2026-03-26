@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://c4wrg325vpr8v"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://dijividxqc8u3" path="res://Parasitophobia/Animations/seal/seal.atlas" id="1_3xrr0"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://c4pthpv8ejur6" path="res://Parasitophobia/Animations/seal/seal.skel" id="2_4xicj"]
+
+[resource]
+atlas_res = ExtResource("1_3xrr0")
+skeleton_file_res = ExtResource("2_4xicj")

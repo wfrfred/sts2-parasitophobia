@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dijividxqc8u3"
+path="res://.godot/imported/seal.atlas-63f72f9f85bd19ad0ec736104ff27253.spatlas"
+
+[deps]
+
+source_file="res://Parasitophobia/Animations/seal/seal.atlas"
+dest_files=["res://.godot/imported/seal.atlas-63f72f9f85bd19ad0ec736104ff27253.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"
